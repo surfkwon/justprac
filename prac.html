@@ -3,8 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .flex_container{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+        .flex-item{
+            width: 80%;
+            flex:1;
+            background-color: red;
+            overflow: auto;
+        }
+        .hi{
+            width: 30px;
+            height: 120px;
+        }
+    </style>
 </head>
 <body>
+<div class="flex_container">
+    <div class="flex-item">
+        <div>flex-grow의 속성값이 0이면 반응하지 않구, 1이면 가득채웁니다! 빈 공간을 </div>
+        <div>flex-shrink도 마찬가지인데 반대에요 줄여도 0이면 반응안하구 1이면 가득채웁니다</div>
+        <div>flext-basis는 속성값을 줄 수 도 있고 내용길이에 따라 0이나 auto로 조절가능해요</div>
+        <div>d</div>
+        <div>d</div>
 
+    </div>
+    <div class="hi">
+        dd
+    </div>
+</div>
 </body>
 </html>
